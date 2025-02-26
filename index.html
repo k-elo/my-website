@@ -9,23 +9,27 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 50px;
+            background-color: #f4f4f4;
         }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Keti's Simple Website</h1>
-    <p>This is a basic webpage with HTML, CSS, and JavaScript.</p>
-    <button onclick="showMessage()">Click Me</button>
-    
-    <script>
-        function showMessage() {
-            alert("Hello! Thanks for visiting.");
-        }
-    </script>
+    <div class="container">
+        <h1>Welcome to My Simple Website</h1>
+        <p>This is a basic webpage created with HTML and CSS.</p>
+    </div>
 </body>
 </html>
